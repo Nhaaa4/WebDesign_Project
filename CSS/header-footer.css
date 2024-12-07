@@ -85,7 +85,6 @@ footer {
     display: flex;
     color: var(--text-color);
     flex-direction: column;
-    /* align-items: center; */
     justify-content: space-between;
     background-color: var(--second-bg-color);
     gap: 1rem;
