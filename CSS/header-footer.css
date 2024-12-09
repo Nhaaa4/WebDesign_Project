@@ -18,17 +18,12 @@
     --second-text-color: #000000;
 }
 
-body {
-    width: 100%;
-    overflow-x: hidden;
-}
-
 .menu {
     display: none;
 }
 
 .container {
-    width: auto;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,6 +58,10 @@ nav a span {
 
 .profile-cart i {
     font-size: 25px;
+}
+
+.profile-cart a {
+    color: #000000;
 }
 
 .profile-cart img {
