@@ -83,7 +83,7 @@ nav a span {
   font-family: "Sen", sans-serif;
   width: 320px;
   height: 350px;
-  background-color: bisque;
+  background-color: white;
   border-radius: 1em;
   display: grid;
   grid-template-rows: 1.5fr 3fr;
@@ -113,12 +113,12 @@ nav a span {
 }
 .whiteSpace {
   display: flex;
-  background-color: #ffffff;
   border-radius: 0 0 1em 1em;
   justify-content: center;
   align-items: end;
-  padding: 0 0 1.5em 0;
   gap: 0.5em;
+  margin-top: auto;
+  margin-bottom: 1em;
 }
 .whiteSpace button {
   font-weight: bold;
@@ -196,64 +196,63 @@ footer .under {
   text-align: center;
 }
 @media only screen and (max-width: 600px) {
-    .mainContainerProfile {
-      display: none;
-      position: absolute;
-      top: 0;
-      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    }
-    .containerProfile {
-      font-family: "Sen", sans-serif;
-      width: 100vw;
-      height: 90vh;
-      background-color: bisque;
-      display: grid;
-      grid-template-rows: 13.5em 3fr;
-      position: relative;
-    }
-    .studio {
-      /* background-color: #568757; */
-      background-image: url("../Image/header.jpg");
-      height: 100%;
-    }
-    .profilePic {
-      position: absolute;
-      top: 8em;
-      left: 1em;
-    }
-    .profilePic img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: solid 0.4em white;
-    }
-    .profilePic h1 {
-      margin: 0;
-    }
-    .profilePic p {
-      margin-bottom: 0;
-    }
-    .whiteSpace {
-      display: flex;
-      background-color: #ffffff;
-      border-radius: 0 0 1em 1em;
-      justify-content: center;
-      align-items: end;
-      padding: 0 0 1.5em 0;
-      gap: 0.5em;
-    }
-    .whiteSpace button {
-      font-weight: bold;
-      width: 150px;
-      padding: 0.8em 1.5em 0.8em 1.5em;
-      border-radius: 2em;
-      border: solid 2px #568757;
-      background-color: white;
-      color: #568757;
-    }
-    .whiteSpace button:last-child {
-      background-color: #568757;
-      color: white;
-    }
+  .mainContainerProfile {
+    display: none;
+    position: absolute;
+    top: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
-  
+  .containerProfile {
+    font-family: "Sen", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 13.5em 3fr;
+    position: relative;
+  }
+  .studio {
+    /* background-color: #568757; */
+    background-image: url("../Image/header.jpg");
+    height: 100%;
+  }
+  .profilePic {
+    position: absolute;
+    top: 8em;
+    left: 1em;
+  }
+  .profilePic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 0.4em white;
+  }
+  .profilePic h1 {
+    margin: 0;
+  }
+  .profilePic p {
+    margin-bottom: 0;
+  }
+  .whiteSpace {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 0 0 1em 1em;
+    justify-content: center;
+    align-items: end;
+    padding: 0 0 1.5em 0;
+    gap: 0.5em;
+  }
+  .whiteSpace button {
+    font-weight: bold;
+    width: 150px;
+    padding: 0.8em 1.5em 0.8em 1.5em;
+    border-radius: 2em;
+    border: solid 2px #568757;
+    background-color: white;
+    color: #568757;
+  }
+  .whiteSpace button:last-child {
+    background-color: #568757;
+    color: white;
+  }
+}
