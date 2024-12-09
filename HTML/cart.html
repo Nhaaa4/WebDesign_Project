@@ -23,10 +23,26 @@
             </nav>
             <div class="profile-cart">
                 <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                <img src="../Image/profile.jpg" alt="Profile">
+                <img src="../Image/profile.jpg" alt="Profile" onclick="clickcloseAccount()">
             </div>
         </div>
     </header>
+    <!-- Profile -->
+    <div class="mainContainerProfile" id="profile">
+        <div class="containerProfile">
+            <div class="studio"></div>   
+            <div class="profilePic">
+                <img src="../Image/profile.jpg" alt="profilePic">
+                <h1>Bos Nh</h1>
+                <p>Phnom Penh, Cambodia</p>
+            </div>
+            <div class="whiteSpace">
+                <button>Edit Profile</button>
+                <button>Settings</button>
+            </div>
+        </div>
+    </div>
+
     <main>
         <div class="shopping-cart">
             <h1>Shopping Cart</h1>
@@ -171,5 +187,6 @@
         <hr/>
         <p class="under">© 2024 COPPSROV BY COPPSARY</p>
     </footer>
+    <script src="../JS/profile.js"></script>
 </body>
 </html>
